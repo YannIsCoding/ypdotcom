@@ -16,6 +16,9 @@ h1{
   line-height: 3rem;
   margin-bottom: -0.5rem;
 }
+.sub-title {
+  font-style: italic;
+}
 p{
     font-family: 'Work Sans', sans-serif;
 }
