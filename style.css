@@ -2,12 +2,15 @@ body{
   font-family: sans-serif;
   font-size: 1.1rem;
   line-height: 20px;
-  color: #21242f;
+  color: #ffff;
+  background-color: #3066BE;
 }
+
 h1, h3{
    font-family: 'Comfortaa', sans-serif;
-   color: #558472;
+   color: #DE6449;
    margin-top: 3rem;
+   margin-bottom: 0;
 }
 
 h1{
@@ -15,16 +18,25 @@ h1{
   font-size: 3rem;
   line-height: 3rem;
   margin-bottom: -0.5rem;
+  letter-spacing: 0.6rem;
 }
+
+h3 {
+  letter-spacing: 0.2rem;
+}
+
 .sub-title {
   font-style: italic;
 }
-p{
-    font-family: 'Work Sans', sans-serif;
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 0.4rem;
 }
-a{
+
+a {
   text-decoration: underline;
-  color: #21242f;
+  color: #ffff;
 
 }
 
@@ -40,10 +52,12 @@ a{
 .list-inline {
   list-style:none;
 }
+
 .list-inline li {
   display:inline;
   font-size:50px;
 }
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
